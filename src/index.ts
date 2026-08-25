@@ -40,3 +40,5 @@ export function validateRules(rules: readonly AllowRule[]) {
   }
   return { valid: true as const, ruleCount: rules.length };
 }
+
+export * from './secrets.js';
